@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './Exemplo.css'
 
 function Exemplo() {
 
@@ -13,7 +14,9 @@ function Exemplo() {
             setResultado(resultado-1) }
 
   return (
-    <div>
+    <div className="exemplo_container">
+
+      <h3>Diminuir e aumentar o numero(exemplo)</h3>
         <button onClick={aumentar}>+</button>
         {resultado}
         <button onClick={diminuir}>-</button>

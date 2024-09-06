@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import './PositivoNegativo.css'
 
 
 function PositivoNegativo() {
@@ -7,7 +8,7 @@ function PositivoNegativo() {
 
     function definir(){
 
-        let numero = Number(prompt('digite um numero para descobrir se é positivo negativo ou nulo'))
+        let numero = Number(prompt('digite um numero'))
 
         if(numero > 0){
             setResultado('positivo👍😃')
@@ -19,9 +20,11 @@ function PositivoNegativo() {
     }
 
   return (
-    <div>
-      <button onClick={definir}>descobrir</button>
-      {resultado}
+    <div className='PositivoNegativo_container' >
+      <h3>Descobrir se o numero é positivo, negativo ou nulo</h3>
+      <button onClick={definir}>definir</button>
+      <br />
+      O número é: {resultado}
     </div>
   )
 }
