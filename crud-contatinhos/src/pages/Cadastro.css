@@ -1,0 +1,13 @@
+.card-contatinho{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.contatinhos{
+    display: flex;
+   align-items: center;
+   gap: 25px;
+   justify-content: center;
+   width: 400px;
+   height: 300px;
+}

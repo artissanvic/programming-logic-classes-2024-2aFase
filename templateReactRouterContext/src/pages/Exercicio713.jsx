@@ -25,7 +25,7 @@ return (
     <div>
         <Navbar />
 
-        <h1>Exercício 7.12</h1>
+        <h1>Exercício 7.13</h1>
 
         <h4>digite o menor numero</h4>
         <input type="text"
